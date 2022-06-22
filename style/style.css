@@ -146,3 +146,44 @@ padding: 75px 0;
 .btn-container {
     text-align: center;
 }
+
+.projects-wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.project img {
+    width: 50%;
+}
+
+.project-text {
+    width: 50%;
+}
+
+.project-container > * {
+    margin-bottom: 100px;
+}
+
+.project-text hr {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 35px 0;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-aligned {
+    flex-direction: row-reverse;
+}
+
+.project-text h1 {
+    font-size: 2.25rem;
+}
+
+.project-text button {
+    font-size: 1.15rem;
+}
